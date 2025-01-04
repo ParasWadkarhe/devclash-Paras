@@ -3,12 +3,14 @@ import "./eventteam.css";
 const EventTeam = () => {
   return (
     <div className="eventteam" id="team">
-      <h1 className="eventteam-title">Event Team</h1>
+      <div className="eventteam-title">
+        Event <br /> Team
+      </div>
       <div className="eventteam-container">
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/Vedant2.jpeg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">VEDANT PATIL</h2>
@@ -28,7 +30,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/vedant-patil-34b098235/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +45,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/KankshaPharate.jpeg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">KANKSHA PHARATE</h2>
@@ -63,7 +65,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/kanksha-pharate-1b387528b/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,7 +80,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/Suyash3.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">SUYASH DASHPUTRE</h2>
@@ -113,7 +115,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/OmkarYadav.PNG"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">OMKAR YADAV</h2>
@@ -133,7 +135,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/omkar-yadav-8b220825a"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -148,7 +150,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/IMG_9416.jpg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">PRAJWAL KULKARNI</h2>
@@ -168,7 +170,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/prajwal-kulkarni-398359153/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -183,7 +185,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">FAIZ SHAIKH</h2>
@@ -201,7 +203,7 @@ const EventTeam = () => {
                 alt="Whatsapp Icons"
               />
             </a>
-            <a
+            {/* <a
               className="whatsapp-anchor"
               href="https://www.linkedin.com/in/codersuyash/"
               target="_blank"
@@ -212,13 +214,13 @@ const EventTeam = () => {
                 src={"./assets/linkedin.png"}
                 alt="Whatsapp Icons"
               />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">AARYA DHOLE</h2>
@@ -236,7 +238,7 @@ const EventTeam = () => {
                 alt="Whatsapp Icons"
               />
             </a>
-            <a
+            {/* <a
               className="whatsapp-anchor"
               href="https://www.linkedin.com/in/codersuyash/"
               target="_blank"
@@ -247,7 +249,7 @@ const EventTeam = () => {
                 src={"./assets/linkedin.png"}
                 alt="Whatsapp Icons"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
